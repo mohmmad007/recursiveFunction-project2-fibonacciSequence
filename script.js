@@ -1,8 +1,6 @@
 function sum(a) {
-  if (a == 2) {
-    return 1;
-  } else if (a <= 1) {
-    return 1;
+  } if (a < 2) {
+    return a;
   } else {
     return (a = sum(a - 1) + sum(a - 2));
   }
